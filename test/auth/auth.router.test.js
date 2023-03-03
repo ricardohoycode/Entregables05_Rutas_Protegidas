@@ -11,9 +11,7 @@ before(() => {
     createUsers()
 })
 
-after(() => {
-    deleteUsers()
-})
+
 
 describe('Testing de la ruta /api/v1/auth/login', () => {
     it('Deberia generar un error 401 al no mandarle credenciales', (done) => {
@@ -48,7 +46,3 @@ describe('Testing de la ruta /api/v1/auth/login', () => {
     })
 
 })
-
-
-
-
